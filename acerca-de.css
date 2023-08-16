@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    background-image: linear-gradient(90deg,
+    rgba(44, 44, 44, 0.712),
+    rgba(44, 44, 44, 0.712)
+    ), url(img/portade.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 70%;
+    height: 80px;
+    background-color: rgb(31, 31, 31);
+    position: fixed;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 40px;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(219, 186, 0);
+    padding: 0 20px;
+}
+
+.new-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-section h1 {
+    color: white;
+    margin-top: 200px;
+    width: 80%;
+    font-size: 90px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.new-section p {
+    color: white;
+    width: 40%;
+    padding: 5px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipo {
+    width: 80%;
+    height: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.39);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.equipo h1 {
+    margin: 40px 0;
+    font-size: 60px;
+    font-weight: 800;
+    color: rgb(219, 186, 0);
+}
+
+.equipo button {
+    background-color: rgb(219, 186, 0);
+    border: transparent;
+    font-weight: 1000;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    margin: 50px 0;
+    padding: 20px;
+}
+
+.people {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.person {
+    margin: 0 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+}
+
+.person h2 {
+    margin-top: 20px;
+    color: rgb(219, 186, 0);
+}
+
+.person p {
+    width: 300px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.person1 {
+    background-image: url(img/portade.jpg);
+    background-size: cover;
+    margin: 0;
+    margin-top: 0;
+    height: 700px;
+    width: 400px;
+}
+
+.person2 {
+    background-image: url(img/portade.jpg);
+    background-size: cover;
+    height: 700px;
+    width: 400px;
+}
+
+.galeria {
+    display: flex;
+    margin-top: 60px;
+    width: 1700px   ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria h2 {
+    font-size: 50px;
+    font-weight: 1000;
+    color: rgb(219, 186, 0);
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.fotos {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.secti {
+    display: flex;
+}
+
+.sex {
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+}
+
+.cliente-satis {
+    background-color: rgb(219, 186, 0);
+    width: 1700px;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.pri {
+    background-image: url(img/img1/1.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sec {
+    background-image: url(img/img1/2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ter {
+    background-image: url(img/img1/3.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cuar {
+    background-image: url(img/img1/4.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.quin {
+    background-image: url(img/img1/5.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.set {
+    background-image: url(img/img1/6.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sep {
+    background-image: url(img/img1/7.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.oct {
+    background-image: url(img/img1/8.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.non {
+    background-image: url(img/img1/9.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.dec {
+    background-image: url(img/img1/10.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.once {
+    background-image: url(img/img1/11.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.doce {
+    background-image: url(img/img1/12.jpeg);
+    background-size: cover;
+    background-position: center;
+}

@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(90deg,
+    rgba(63, 63, 63, 0.514),
+    rgba(63, 63, 63, 0.514)
+    ), url(img/portade.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 70%;
+    height: 80px;
+    background-color: rgb(31, 31, 31);
+    position: fixed;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 40px;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(219, 186, 0);
+    padding: 0 20px;
+}
+
+.new-section {
+    margin-top: 200px;
+    margin-bottom: 100px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items:center;
+}
+
+
+.new-section h1{
+    color: white;
+    font-size: 90px;
+    height: 250px;
+    width: 600px;
+    text-align: center;
+}
+
+.cajis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    background-color: rgba(0, 0, 0, 0.514);
+    width: 80%;
+    height: 700px;
+}   
+
+.cajis1 {
+    display: flex;
+}
+
+.ideas {
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+}
+
+.img1 {
+    background-image: url(img/img1/4.jpeg);
+    background-position: center;    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+}
+
+.img2 {
+    background-image: url(img/img1/6.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+}
+
+.img3 {
+    background-image: url(img/img1/9.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+}
+
+.img4{
+    background-image: url(img/img1/7.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+}
+
+.img5{
+    background-image: url(img/img1/15.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+}
+
+
+
+.ideas h1 {
+    width: 400px;
+    margin: 0;
+    height: 35px;
+    color: rgb(255, 196, 0);
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.ideas p {
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0 20px;
+}
